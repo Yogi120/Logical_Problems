@@ -175,7 +175,11 @@ namespace LogicalProblems
                         case 5:
                             Console.WriteLine(loop.NextEachOther7s(new int[] { 3, 6, 7, 7, 7 }));
                             break;
-                                
+
+                        case 6:
+                            Console.WriteLine(loop.Increasing(new int[] { 3, 5, 8, 9, 10 }));
+                            break;
+
                     }
 
                     break;

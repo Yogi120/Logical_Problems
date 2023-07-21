@@ -72,5 +72,17 @@ namespace LogicalProblems
             }
             return adjacent;
         }
+
+        public bool Increasing(int[] arr)
+        {
+            for (int i = 1; i < arr.Length - 1; i++)
+            {
+                if (arr[i - 1] + 1 == arr[1] && arr[i + 1] - 1 == arr[i])
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }
