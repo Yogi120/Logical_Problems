@@ -92,6 +92,11 @@ namespace LogicalProblems
                         case 1:
                             Console.WriteLine(conditional.Absolute(-21));
                             break;
+
+                        case 2:
+                            Console.WriteLine(conditional.Divisible(15, 20));
+                            break;
+
                     }
 
                     break;
