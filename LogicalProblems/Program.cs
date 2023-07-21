@@ -62,7 +62,9 @@ namespace LogicalProblems
                             Console.WriteLine(basic.Cube(5));
                             break;
 
-
+                        case 7:
+                            Console.WriteLine(basic.Swap(10, 20));
+                            break;
                     }
                     break;
             }

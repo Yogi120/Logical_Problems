@@ -53,5 +53,15 @@ namespace LogicalProblems
         {
             return Math.Pow(num, 3);
         }
+
+        public string Swap(int num1, int num2)
+        {
+            int temp;
+            temp = num1;
+            num1 = num2;
+            num2 = temp;
+            string after = $"num1 = {num1}, num2 = {num2}";
+            return after;
+        }
     }
 }
