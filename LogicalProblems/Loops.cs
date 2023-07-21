@@ -31,5 +31,18 @@ namespace LogicalProblems
 
             return fraction;
         }
+
+        public string EvenNum(int num)
+        {
+            string EvenNumbers = "";
+            for (int i = 0; i <= num; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    EvenNumbers += i + " ";
+                }
+            }
+            return EvenNumbers;
+        }
     }
 }

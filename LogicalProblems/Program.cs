@@ -163,7 +163,10 @@ namespace LogicalProblems
                         case 2:
                             Console.WriteLine(loop.FractionSum(5));
                                 break;
-                                
+
+                        case 3:
+                            Console.WriteLine(loop.EvenNum(100));
+                            break;
 
                     }
 
