@@ -106,5 +106,19 @@ namespace LogicalProblems
                 return false;
             }
         }
+
+        public bool Contain3(int num)
+        {
+            while (num > 0)
+            {
+                if (num % 10 == 3)
+                {
+                    return true;
+                }
+
+                num = num / 10;
+            }
+            return false;
+        }
     }
 }

@@ -125,6 +125,10 @@ namespace LogicalProblems
                             Console.WriteLine(conditional.Leapyear(2020));
                             break;
 
+                        case 10:
+                            Console.WriteLine(conditional.Contain3(123445));
+                            break;
+
                     }
 
                     break;
