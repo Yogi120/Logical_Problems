@@ -203,6 +203,10 @@ namespace LogicalProblems
                         case 12:
                             Console.WriteLine(loop.SumofNumbers(904861));
                             break;
+
+                        case 13:
+                            Console.WriteLine(loop.SumAverage(-10, 0));
+                            break;
                     }
 
                     break;

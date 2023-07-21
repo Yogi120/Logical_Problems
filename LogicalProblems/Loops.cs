@@ -211,5 +211,21 @@ namespace LogicalProblems
             }
             return sum;
         }
+
+        public string SumAverage(int num1, int num2)
+        {
+            int sum = 0;
+            decimal Avg = 0;
+            int count = 0;
+            for (int i = num1; i <= num2; i++)
+            {
+
+                sum += i;
+                count++;
+                num1 = num1 / 10;
+                Avg = (decimal)sum / count;
+            }
+            return $"Sum = {sum} and Average = {Avg}";
+        }
     }
 }
