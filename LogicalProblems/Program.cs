@@ -42,6 +42,9 @@ namespace LogicalProblems
                             Console.WriteLine(basic.Product(5, 6, 8));
                             break;
 
+                        case 2:
+                            Console.WriteLine(basic.CelsiusToFahrenheit(30));
+                            break;
                     }
                     break;
             }

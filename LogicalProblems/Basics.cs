@@ -12,5 +12,12 @@ namespace LogicalProblems
         {
             return (a + b) * c;
         }
+
+        public string CelsiusToFahrenheit(int tem)
+        {
+            double Fahrenheit = (tem * 1.8) + 32;
+
+            return $"Temp = {Fahrenheit} F";
+        }
     }
 }
