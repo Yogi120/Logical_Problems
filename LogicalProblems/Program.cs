@@ -120,6 +120,8 @@ namespace LogicalProblems
                         case 8:
                             Console.WriteLine(conditional.Sort(new int[] { 0, 1, 2 }));
                             break;
+
+                        
                     }
 
                     break;
