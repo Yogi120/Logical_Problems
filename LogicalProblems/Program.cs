@@ -172,6 +172,10 @@ namespace LogicalProblems
                             Console.WriteLine(loop.Biggest(new int[] { 3, 6, 9, 5, 9 }));
                             break;
 
+                        case 5:
+                            Console.WriteLine(loop.NextEachOther7s(new int[] { 3, 6, 7, 7, 7 }));
+                            break;
+                                
                     }
 
                     break;

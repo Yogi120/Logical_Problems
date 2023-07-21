@@ -58,5 +58,19 @@ namespace LogicalProblems
             }
             return biggest;
         }
+
+        public int NextEachOther7s(int[] arr)
+        {
+            int adjacent = 0;
+
+            for (int i = 0; i < arr.Length - 1; i++)
+            {
+                if (arr[i] == 7 && arr[i + 1] == 7)
+                {
+                    adjacent++;
+                }
+            }
+            return adjacent;
+        }
     }
 }
