@@ -58,6 +58,11 @@ namespace LogicalProblems
                             Console.WriteLine(basic.Modulo(8, 5, 2));
                             break;
 
+                        case 6:
+                            Console.WriteLine(basic.Cube(5));
+                            break;
+
+
                     }
                     break;
             }

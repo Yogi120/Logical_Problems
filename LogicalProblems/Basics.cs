@@ -48,5 +48,10 @@ namespace LogicalProblems
         {
             return num1 % num2 % num3;
         }
+
+        public double Cube(int num)
+        {
+            return Math.Pow(num, 3);
+        }
     }
 }
