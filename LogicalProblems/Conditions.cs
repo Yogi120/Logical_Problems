@@ -78,5 +78,11 @@ namespace LogicalProblems
                 return "Negative";
             }
         }
+
+        public bool Neighbour(string word)
+        {
+            return (word[0] == word[1] - 1 || word[0] == word[1] + 1 || word[1] == word[2] - 1 || word[1] == word[2] + 1);
+
+        }
     }
 }
