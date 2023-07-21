@@ -210,6 +210,28 @@ namespace LogicalProblems
                     }
 
                     break;
+
+                case 4:
+
+                    Strings str = new Strings();
+
+                    Console.WriteLine("1. Is palindrome ");
+                    Console.WriteLine("2. Length of string");
+                    Console.WriteLine("3. String in reverse order ");
+                    Console.WriteLine("4. Sum digits in string ");
+
+                    Console.Write("Choose option: ");
+                    int select = Convert.ToInt32(Console.ReadLine());
+
+                    switch (select)
+                    {
+                        case 1:
+                            Console.WriteLine(str.Palindrome("eye"));
+                            break;
+
+                        
+
+                    }
             }
 
 
