@@ -168,6 +168,10 @@ namespace LogicalProblems
                             Console.WriteLine(loop.EvenNum(100));
                             break;
 
+                        case 4:
+                            Console.WriteLine(loop.Biggest(new int[] { 3, 6, 9, 5, 9 }));
+                            break;
+
                     }
 
                     break;

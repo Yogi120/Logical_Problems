@@ -44,5 +44,19 @@ namespace LogicalProblems
             }
             return EvenNumbers;
         }
+
+        public int Biggest(int[] arr)
+        {
+            int biggest = arr[0];
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] > biggest)
+                {
+                    biggest = arr[i];
+                }
+            }
+            return biggest;
+        }
     }
 }
