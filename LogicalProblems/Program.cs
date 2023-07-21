@@ -245,6 +245,12 @@ namespace LogicalProblems
                         case 5:
                             Console.WriteLine(str.Equalbrackets("()())(("));
                             break;
+
+                        case 6:
+                            Console.WriteLine(str.Addseperator("Hello", "-"));
+                            break;
+
+                           
                     }
 
                     break;

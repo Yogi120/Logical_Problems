@@ -75,5 +75,21 @@ namespace LogicalProblems
             }
             return false;
         }
+
+        public string Addseperator(string str, string separator)
+        {
+            string result = "";
+
+            for(int i=0; i<str.Length; i++)
+            {
+                result += str[i];
+
+                if (i < str.Length - 1)
+                {
+                    result += separator;
+                }
+            }
+            return result;
+        }
     }
 }
