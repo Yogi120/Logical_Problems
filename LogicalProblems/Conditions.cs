@@ -84,5 +84,14 @@ namespace LogicalProblems
             return (word[0] == word[1] - 1 || word[0] == word[1] + 1 || word[1] == word[2] - 1 || word[1] == word[2] + 1);
 
         }
+
+        public bool Sort(int[] arr)
+        {
+            if (arr[0] < arr[1] && arr[1] < arr[2])
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

@@ -112,6 +112,14 @@ namespace LogicalProblems
                         case 6:
                             Console.WriteLine(conditional.PosZerNeg(-45.34));
                             break;
+
+                        case 7:
+                            Console.WriteLine(conditional.Neighbour("vbn"));
+                            break;
+
+                        case 8:
+                            Console.WriteLine(conditional.Sort(new int[] { 0, 1, 2 }));
+                            break;
                     }
 
                     break;
