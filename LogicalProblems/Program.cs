@@ -236,9 +236,19 @@ namespace LogicalProblems
                         case 3:
                             Console.WriteLine(str.Reverse("opposite"));
                             break;
+
+                        case 4:
+                            Console.WriteLine(str.SumDigitString("2gh3j5"));
+                            break;
+
+                       
                     }
 
                     break;
+
+                default:
+                    Console.WriteLine("Choose Correct Option !!");
+                    return;
             }
 
 

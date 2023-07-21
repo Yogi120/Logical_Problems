@@ -40,5 +40,18 @@ namespace LogicalProblems
             }
             return Reverse;
         }
+
+        public int SumDigitString(string str)
+        {
+            int sum = 0;
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (Char.IsDigit(str[i]))
+                {
+                    sum += (int)Char.GetNumericValue(str[i]);
+                }
+            }
+            return sum;
+        }
     }
 }
