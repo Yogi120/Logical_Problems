@@ -199,6 +199,10 @@ namespace LogicalProblems
                         case 11:
                             loop.Triangle();
                             break;
+
+                        case 12:
+                            Console.WriteLine(loop.SumofNumbers(904861));
+                            break;
                     }
 
                     break;
