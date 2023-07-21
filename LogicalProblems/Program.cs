@@ -67,6 +67,34 @@ namespace LogicalProblems
                             break;
                     }
                     break;
+
+                case 2:
+
+                    Conditions conditional = new Conditions();
+
+
+                    Console.WriteLine("1. Absolute value ");
+                    Console.WriteLine("2. Divisible by 2 or 3");
+                    Console.WriteLine("3. If consists of uppercase letters ");
+                    Console.WriteLine("4. If greater than third one ");
+                    Console.WriteLine("5. If number is even");
+                    Console.WriteLine("6. If sorted ascending");
+                    Console.WriteLine("7. If has neighbour");
+                    Console.WriteLine("8. Positive, negative or zero");
+                    Console.WriteLine("9. If year is leap");
+                    Console.WriteLine("10. If number contains 3");
+
+                    Console.Write("Choose Otion: ");
+                    int Choose = Convert.ToInt32(Console.ReadLine());
+
+                    switch(Choose)
+                    {
+                        case 1:
+                            Console.WriteLine(conditional.Absolute(-21));
+                            break;
+                    }
+
+                    break;
             }
 
 
