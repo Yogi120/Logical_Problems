@@ -182,5 +182,22 @@ namespace LogicalProblems
         {
             return Math.Pow(num, exp);
         }
+
+        public void Triangle()
+        {
+            int num = 10;
+            for (int i = 1; i <= num; i++)
+            {
+                for (int j = num; j >= i; j--)
+                {
+                    Console.Write(" ");
+                }
+                for (int k = 1; k <= i; k++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+        }
     }
 }

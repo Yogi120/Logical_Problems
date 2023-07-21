@@ -195,6 +195,10 @@ namespace LogicalProblems
                         case 10:
                             Console.WriteLine(loop.PowerOf(-2, 3));
                             break;
+
+                        case 11:
+                            loop.Triangle();
+                            break;
                     }
 
                     break;
