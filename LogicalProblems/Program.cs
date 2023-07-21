@@ -229,9 +229,13 @@ namespace LogicalProblems
                             Console.WriteLine(str.Palindrome("eye"));
                             break;
 
-                        
+                        case 2:
+                            Console.WriteLine(str.LengthofString("computer"));
+                            break;
 
                     }
+
+                    break;
             }
 
 

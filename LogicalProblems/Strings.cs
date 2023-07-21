@@ -19,5 +19,15 @@ namespace LogicalProblems
             }
             return false;
         }
+
+        public int LengthofString(string str)
+        {
+            int count = 0;
+            foreach (char strs in str)
+            {
+                count++;
+            }
+            return count;
+        }
     }
 }
