@@ -32,5 +32,10 @@ namespace LogicalProblems
                 return num1 + num2;
             }
         }
+
+        public bool UppercaseString(string str)
+        {
+            return (str[0] >= 65 && str[1] >= 65 && str[2] >= 65 && str[0] <= 90 && str[1] <= 90 && str[2] <= 90);
+        }
     }
 }

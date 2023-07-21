@@ -97,6 +97,10 @@ namespace LogicalProblems
                             Console.WriteLine(conditional.Divisible(15, 20));
                             break;
 
+                        case 3:
+                            Console.WriteLine(conditional.UppercaseString("Xyz"));
+                            break;
+
                     }
 
                     break;
