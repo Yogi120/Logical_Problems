@@ -190,7 +190,11 @@ namespace LogicalProblems
 
                         case 9:
                             loop.ChristmasTree();
-                            break:
+                            break;
+
+                        case 10:
+                            Console.WriteLine(loop.PowerOf(-2, 3));
+                            break;
                     }
 
                     break;

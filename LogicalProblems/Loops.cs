@@ -178,5 +178,9 @@ namespace LogicalProblems
                 Console.WriteLine();
             }
         }
+        public double PowerOf(int num, int exp)
+        {
+            return Math.Pow(num, exp);
+        }
     }
 }
