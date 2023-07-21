@@ -151,7 +151,7 @@ namespace LogicalProblems
                     Console.WriteLine("12. Digits sum");
                     Console.WriteLine("13. Sum and average");
 
-                    Console.Write("Choose Option");
+                    Console.Write("Choose Option: ");
                     int choose = Convert.ToInt32(Console.ReadLine());
 
                     switch(choose)
@@ -219,6 +219,7 @@ namespace LogicalProblems
                     Console.WriteLine("2. Length of string");
                     Console.WriteLine("3. String in reverse order ");
                     Console.WriteLine("4. Sum digits in string ");
+                    Console.WriteLine("5. Check brackets sequence");
 
                     Console.Write("Choose option: ");
                     int select = Convert.ToInt32(Console.ReadLine());
@@ -241,7 +242,9 @@ namespace LogicalProblems
                             Console.WriteLine(str.SumDigitString("2gh3j5"));
                             break;
 
-                       
+                        case 5:
+                            Console.WriteLine(str.Equalbrackets("()())(("));
+                            break;
                     }
 
                     break;
