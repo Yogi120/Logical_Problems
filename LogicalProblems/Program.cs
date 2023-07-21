@@ -78,9 +78,9 @@ namespace LogicalProblems
                     Console.WriteLine("3. If consists of uppercase letters ");
                     Console.WriteLine("4. If greater than third one ");
                     Console.WriteLine("5. If number is even");
-                    Console.WriteLine("6. If sorted ascending");
+                    Console.WriteLine("6. Positive, negative or zero");
                     Console.WriteLine("7. If has neighbour");
-                    Console.WriteLine("8. Positive, negative or zero");
+                    Console.WriteLine("8. If sorted ascending");
                     Console.WriteLine("9. If year is leap");
                     Console.WriteLine("10. If number contains 3");
 
@@ -121,7 +121,10 @@ namespace LogicalProblems
                             Console.WriteLine(conditional.Sort(new int[] { 0, 1, 2 }));
                             break;
 
-                        
+                        case 9:
+                            Console.WriteLine(conditional.Leapyear(2020));
+                            break;
+
                     }
 
                     break;
