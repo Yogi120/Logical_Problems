@@ -37,5 +37,18 @@ namespace LogicalProblems
         {
             return (str[0] >= 65 && str[1] >= 65 && str[2] >= 65 && str[0] <= 90 && str[1] <= 90 && str[2] <= 90);
         }
+
+        public bool GreaterThanThirdOne(int num1, int num2, int num3)
+        {
+            if ((num1 + num2 == num3) || (num1 * num2 == num3))
+            {
+                return true;
+            }
+
+            else
+            {
+                return false;
+            }
+        }
     }
 }

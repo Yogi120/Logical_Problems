@@ -101,6 +101,10 @@ namespace LogicalProblems
                             Console.WriteLine(conditional.UppercaseString("Xyz"));
                             break;
 
+                        case 4:
+                            Console.WriteLine(conditional.GreaterThanThirdOne(2, 7, 12));
+                            break;
+
                     }
 
                     break;
