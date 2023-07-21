@@ -180,6 +180,10 @@ namespace LogicalProblems
                             Console.WriteLine(loop.Increasing(new int[] { 3, 5, 8, 9, 10 }));
                             break;
 
+                        case 7:
+                            loop.Hourglass();
+                            break;
+
                     }
 
                     break;

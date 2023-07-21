@@ -84,5 +84,39 @@ namespace LogicalProblems
             }
             return false;
         }
+
+        public void Hourglass()
+        {
+            int num = 5;
+            for (int i = 1; i <= num; i++)
+            {
+                for (int l = 1; l <= i; l++)
+                {
+                    Console.Write(" ");
+                }
+                for (int j = num; j >= i; j--)
+                {
+                    Console.Write("*");
+                }
+                for (int k = num - 1; k >= i; k--)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+
+            for (int i = 2; i <= num; i++)
+            {
+                for (int j = num; j >= i; j--)
+                {
+                    Console.Write(" ");
+                }
+                for (int k = 1; k <= 2 * i - 1; k++)
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+        }
     }
 }
