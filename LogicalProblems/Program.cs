@@ -220,7 +220,8 @@ namespace LogicalProblems
                     Console.WriteLine("3. String in reverse order ");
                     Console.WriteLine("4. Sum digits in string ");
                     Console.WriteLine("5. Check brackets sequence");
-                    Console.WriteLine("6. Mix Two String");
+                    Console.WriteLine("6. Add Separator");
+                    Console.WriteLine("7. Mix Two String");
 
                     Console.Write("Choose option: ");
                     int select = Convert.ToInt32(Console.ReadLine());
