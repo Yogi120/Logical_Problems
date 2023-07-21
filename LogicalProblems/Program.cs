@@ -159,6 +159,12 @@ namespace LogicalProblems
                         case 1:
                             loop.Multiplication();
                             break;
+
+                        case 2:
+                            Console.WriteLine(loop.FractionSum(5));
+                                break;
+                                
+
                     }
 
                     break;

@@ -20,5 +20,16 @@ namespace LogicalProblems
                 Console.WriteLine();
             }
         }
+
+        public double FractionSum(int num)
+        {
+            double fraction = 1;
+            for (int i = 2; i <= fraction; i++)
+            {
+                fraction += 1 / (double)(i * i);
+            }
+
+            return fraction;
+        }
     }
 }
