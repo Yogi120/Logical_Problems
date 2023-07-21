@@ -54,6 +54,10 @@ namespace LogicalProblems
                             Console.WriteLine(basic.Result(2 * 2, 4 / 2));
                             break;
 
+                        case 5:
+                            Console.WriteLine(basic.Modulo(8, 5, 2));
+                            break;
+
                     }
                     break;
             }
