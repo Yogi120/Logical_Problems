@@ -29,5 +29,16 @@ namespace LogicalProblems
             }
             return count;
         }
+
+        public string Reverse(string str)
+        {
+            string Reverse = "";
+
+            for (int i = str.Length - 1; i >= 0; i--)
+            {
+                Reverse += str[i];
+            }
+            return Reverse;
+        }
     }
 }

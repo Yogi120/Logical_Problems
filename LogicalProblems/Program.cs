@@ -233,6 +233,9 @@ namespace LogicalProblems
                             Console.WriteLine(str.LengthofString("computer"));
                             break;
 
+                        case 3:
+                            Console.WriteLine(str.Reverse("opposite"));
+                            break;
                     }
 
                     break;
