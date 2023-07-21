@@ -108,6 +108,10 @@ namespace LogicalProblems
                         case 5:
                             Console.WriteLine(conditional.Evenodd(21));
                             break;
+
+                        case 6:
+                            Console.WriteLine(conditional.PosZerNeg(-45.34));
+                            break;
                     }
 
                     break;
