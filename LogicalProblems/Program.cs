@@ -187,6 +187,10 @@ namespace LogicalProblems
                         case 8:
                             loop.Parallelogram();
                             break;
+
+                        case 9:
+                            loop.ChristmasTree();
+                            break:
                     }
 
                     break;
