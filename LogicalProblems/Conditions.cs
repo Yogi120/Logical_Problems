@@ -50,5 +50,17 @@ namespace LogicalProblems
                 return false;
             }
         }
+
+        public bool Evenodd(int num)
+        {
+            if (num % 2 == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

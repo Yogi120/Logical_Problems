@@ -105,6 +105,9 @@ namespace LogicalProblems
                             Console.WriteLine(conditional.GreaterThanThirdOne(2, 7, 12));
                             break;
 
+                        case 5:
+                            Console.WriteLine(conditional.Evenodd(21));
+                            break;
                     }
 
                     break;
