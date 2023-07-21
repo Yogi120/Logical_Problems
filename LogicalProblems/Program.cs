@@ -130,6 +130,36 @@ namespace LogicalProblems
                             break;
 
                     }
+                    break;
+
+
+                case 3:
+
+                    Loops loop = new Loops();
+
+                    Console.WriteLine("1. Multiplication table ");
+                    Console.WriteLine("2. Fractions sum ");
+                    Console.WriteLine("3. Even Number");
+                    Console.WriteLine("4. The biggest number ");
+                    Console.WriteLine("5. Two 7s next to each other");
+                    Console.WriteLine("6. Three increasing adjacent");
+                    Console.WriteLine("7. Draw hourglass");
+                    Console.WriteLine("8. Draw parallelogram ");
+                    Console.WriteLine("9. Draw Christmas tree");
+                    Console.WriteLine("10. To the power of");
+                    Console.WriteLine("11. Draw triangle");
+                    Console.WriteLine("12. Digits sum");
+                    Console.WriteLine("13. Sum and average");
+
+                    Console.Write("Choose Option");
+                    int choose = Convert.ToInt32(Console.ReadLine());
+
+                    switch(choose)
+                    {
+                        case 1:
+                            loop.Multiplication();
+                            break;
+                    }
 
                     break;
             }
