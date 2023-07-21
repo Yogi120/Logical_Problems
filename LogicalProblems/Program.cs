@@ -50,6 +50,10 @@ namespace LogicalProblems
                             Console.WriteLine(basic.Elementary(3, 8));
                             break;
 
+                        case 4:
+                            Console.WriteLine(basic.Result(2 * 2, 4 / 2));
+                            break;
+
                     }
                     break;
             }

@@ -38,5 +38,10 @@ namespace LogicalProblems
 
             return $"(a+b) = {add}, (a-b) = {sub}, (a*b) = {mul}, (a/b) = {divide}";
         }
+
+        public bool Result(double num1, double num2)
+        {
+            return num1 == num2;
+        }
     }
 }
