@@ -220,6 +220,7 @@ namespace LogicalProblems
                     Console.WriteLine("3. String in reverse order ");
                     Console.WriteLine("4. Sum digits in string ");
                     Console.WriteLine("5. Check brackets sequence");
+                    Console.WriteLine("6. Mix Two String");
 
                     Console.Write("Choose option: ");
                     int select = Convert.ToInt32(Console.ReadLine());
@@ -250,7 +251,10 @@ namespace LogicalProblems
                             Console.WriteLine(str.Addseperator("Hello", "-"));
                             break;
 
-                           
+                        case 7:
+                            Console.WriteLine(str.Mixtwostrings("Hello World", "good"));
+                            break;
+
                     }
 
                     break;

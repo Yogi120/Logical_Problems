@@ -91,5 +91,23 @@ namespace LogicalProblems
             }
             return result;
         }
+
+        public string Mixtwostrings(string str, string str2)
+        {
+            string Mix = "";
+
+            for(int i=0; i < Math.Max(str.Length, str2.Length); i++)
+            {
+                if(i < str.Length)
+                {
+                    Mix += str[i];
+                }
+                if(i < str2.Length)
+                {
+                    Mix += str2[i];
+                }
+            }
+            return Mix;
+        }
     }
 }
