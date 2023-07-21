@@ -184,6 +184,9 @@ namespace LogicalProblems
                             loop.Hourglass();
                             break;
 
+                        case 8:
+                            loop.Parallelogram();
+                            break;
                     }
 
                     break;
